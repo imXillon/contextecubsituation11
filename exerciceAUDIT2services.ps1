@@ -1,4 +1,10 @@
-﻿# Définition des variables
+﻿##############################
+# nom : exerciceAUDIT2.ps1   #
+# Auteur : Antoine Ribeiro   #
+# Date : 11/04/23            #
+# version : 1                #
+##############################
+# Définition des variables
 $currentTime = Get-Date
 $outputFile = "C:\auditDHCP.txt"
 $date = Get-Date -Format "yyyy-MM-dd"
